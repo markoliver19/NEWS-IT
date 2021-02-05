@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+	<item
+		android:id="@+id/notification"
+        android:title="Options"
+		android:icon="@drawable/notification"
+		android:showAsAction="always"
+	/>
+	
+	
+	<item
+        android:title="Menu"
+		android:icon="@drawable/menulogo"
+		android:showAsAction="always"
+	>
+
+	<menu>
+	
+  
+		
+		
+
+	<item
+        android:id="@+id/developer"
+        android:title="Developer"
+		android:icon="@drawable/developer"
+		android:showAsAction="always"
+	/>
+
+
+		<item
+			android:id="@+id/logout"
+			android:title="Logout"
+			android:icon="@drawable/logout"
+			android:showAsAction="always"
+		/>
+		
+
+		
+
+
+	</menu>
+
+	</item>
+
+
+</menu>
